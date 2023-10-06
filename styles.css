@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black; 
+    color: rgb(240,240,240);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    font-family: 'Pixelify Sans', cursive;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;500;600;700&display=swap');
+
+header {
+    width: 95%;
+    max-width: 788px;
+    display: flex;
+    justify-content: flex-end;
+    padding: 12px;
+    margin-top: 15px;
+}
+
+.container {
+    width: 91%;
+    max-width: 680px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+i{
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240,240,240);
+    margin: 10px 15px;
+} 
+
+
+.tile {
+    width: 110%;
+    background-color: rgb(37,37,37);
+    margin: 10px;
+    border-radius: 17px;
+    border: 1px solid #dedede;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.tile:hover {
+    transition: cubic-bezier(.07, 1.41, .82, 1.41) 0.3s;
+    transform: scale(1.04);
+}
+
+
+.image-container {
+    height: 96px;
+    width: 96px;
+    border-radius: 48px;
+    overflow: hidden;
+}
+
+.image-container img {
+    height: 100%;
+}
+
+.icon {
+    margin: 2px 6px;
+    width: 44px;
+    height: 44px;
+}
+
+.buatngisiaja {
+    width: 50px ;
+}
